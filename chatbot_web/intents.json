@@ -1,0 +1,236 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hello",
+          "Hey",
+          "Good morning",
+          "Good afternoon",
+          "Good evening",
+          "Welcome",
+          "Greetings"
+        ],
+        "responses": [
+          "Hello! Welcome to our FoodZone.",
+          "Hi! How can we assist you today?",
+          "Good to see you! What can we do for you?"
+        ]
+      },
+      {
+        "tag": "restaurant",
+        "patterns": [
+          "suggest restaurant ",
+          "Can you suggest me a restaurant?",
+          "Can you show me the restaurant?",
+          "What do you recommended restaurant?",
+          "What's good  a restaurant?"
+        ],
+        "responses": [
+          "I suggest Heart Attack",
+          "Our special suggestions for today are [  - `1234567890-=Heart Attack \n Chicken & Ribs \n Pizza Hut]. Would you like to try any of them?",
+          "We highly recommend [KFC \n McDonald's]. They're some of our most popular items."
+        ]
+      },
+      {
+        "tag": "reservations",
+        "patterns": [
+          "reservation ",
+          "Can I make a reservation?",
+          "Do I need a reservation?",
+          "can I make a reservation from pizza hut?",
+          "Is reservation available in the Heart Attack?"
+        ],
+        "responses": [
+          "Certainly, let me check availability for you.",
+          "Yes, we recommend booking a table to ensure availability.",
+          "The wait time is currently [wait time]. Would you like me to reserve a table for you?"
+        ]
+      },
+      {
+        "tag": "table",
+        "patterns": [
+          "What tables are currently available?",
+          "Do I need a reservation table 5?",
+          "Suggest an available table!",
+          "suggest table "
+        ],
+        "responses": [
+          "Certainly, let me check availability for you.",
+          "Yes, 5 table is already available , \n how many individuals you want?",
+          "NO , can you choose another table , \n Are tables 1, 2 and 3 suitable for you?",
+          "I suggest table number 5, do you want to reserve it?"
+        ]
+      },
+      {
+        "tag": "booking",
+        "patterns": [
+          "Yes,I need booking to 4 people",
+          "Ok, I need to book a table for 3",
+          "Well, I need to book a table for 2 \n and the number of people is 7 "
+        ],
+        "responses": [
+          "The booking has been confirmed, please wait"
+        ]
+      },
+      {
+        "tag": "open",
+        "patterns": [
+          "What restaurants are open at the moment?",
+          "When do you open?",
+          "Are there restaurants open 24 hours?"
+        ],
+        "responses": [
+          "The restaurants that are currently open [Heart Attack \n Chicken & Ribs \n Pizza Hut \n KFC \n McDonald's ] ",
+          "We're open 24 hours.",
+          "The restaurants open 24 hours \n \n Heart Attack \n Chicken & Ribs \n Pizza Hut \n KFC \n McDonald's ."
+        ]
+      },
+      {
+        "tag": "healthy_food",
+        "patterns": [
+          "What healthy food options do you offer?",
+          "Do you have any vegetarian dishes?",
+          "Can you recommend a low-calorie meal?"
+        ],
+        "responses": [
+          "We offer a variety of healthy options, including salads, grilled vegetables, and lean protein sources. Our vegetarian dishes include [list of dishes].",
+          "Yes, we have a number of vegetarian dishes, including [list of dishes].",
+          "Certainly, our low-calorie options include [list of dishes]. Would you like me to recommend a specific dish?"
+        ]
+      },
+      {
+        "tag": "location",
+        "patterns": [
+          "Where are you located?",
+          "What's your address?",
+          "How do I get there?"
+        ],
+        "responses": [
+          "We're located at [address].",
+          "Our address is [address]. You can find directions on our website.",
+          "To get to us, [directions]."
+        ]
+      },
+      {
+        "tag": "burger_recipe",
+        "patterns": [
+          "How do I make a burger?",
+          "What ingredients do I need to make a burger?",
+          "Could you give me a recipe for a burger?"
+        ],
+        "responses": [
+          "Sure! To make a burger, you will need ground beef, salt, pepper, buns, lettuce, tomato, onion, cheese, and your choice of condiments. Here's how to make it: Divide the ground beef into equal portions and shape into patties. Season the patties with salt and pepper. Grill or cook the patties on a skillet over medium-high heat for about 3-4 minutes per side, or until they reach your desired level of doneness. Toast the buns and assemble the burger with the cookedpatties, lettuce, tomato, onion, cheese, and your choice of condiments. Serve and enjoy!",
+          "The ingredients you will need to make a burger include ground beef, salt, pepper, buns, lettuce, tomato, onion, cheese, and your choice of condiments. Here's a recipe for it: Divide the ground beef into equal portions and shape into patties. Season the patties with salt and pepper. Grill or cook the patties on a skillet over medium-high heat for about 3-4 minutes per side, or until they reach your desired level of doneness. Toast the buns and assemble the burger with the cooked patties, lettuce, tomato, onion, cheese, and your choice of condiments. Serve and enjoy!",
+          "Absolutely! Here's a recipe for a burger: Divide the ground beef into equal portions and shape into patties. Season the patties with salt and pepper. Grill or cook the patties on a skillet over medium-high heat for about 3-4 minutes per side, or until they reach your desired level of doneness. Toast the buns and assemble the burger with the cooked patties, lettuce, tomato, onion, cheese, and your choice of condiments. The ingredients you'll need include ground beef, salt, pepper, buns, lettuce, tomato, onion, cheese, and your choice of condiments. Serve and enjoy!"
+        ]
+      },
+      {
+        "tag": "pizza_recipe",
+        "patterns": [
+          "How do I make pizza?",
+          "What ingredients do I need to make pizza?",
+          "Could you give me a recipe for pizza?"
+        ],
+        "responses": [
+          "Sure! To make pizza, you will need pizza dough, tomato sauce, mozzarella cheese, and your choice of toppings. Here are some common toppings you can use: pepperoni, mushrooms, onions, sausage, peppers, olives, pineapple, anchovies, tomatoes, spinach, garlic. Here's how to make it: Preheat the oven to the desired temperature (usually around 450-500°F or 230-260°C). Roll out your pizza dough to the desired size and thickness. Spread a thin layer of tomato sauce over the dough, leaving a small border around the edges. Add grated mozzarella cheese on top of the tomato sauce, spreading it evenly over the surface of the pizza. Add your desired toppings, such as pepperoni, mushrooms, onions, sausage, peppers, olives, or any other toppings you like. Bake the pizza in the preheated oven for 10-15 minutes, or until the crust is golden brown and the cheese is melted and bubbly. Remove the pizza fromthe oven and let it cool for a few minutes before slicing and serving.",
+          "The ingredients you will need to make pizza include pizza dough, tomato sauce, mozzarella cheese, and your choice of toppings. Here's a recipe for it: [recipe instructions].",
+          "Absolutely! Here's a recipe for pizza: [recipe instructions]. The ingredients you'll need include pizza dough, tomato sauce, mozzarella cheese, and your choice of toppings."
+        ]
+      },
+      {
+        "tag": "ingredient_substitutions",
+        "patterns": [
+          "I'm missing an ingredient for [dish name]. Can I substitute it with something else?",
+          "What can I use as a substitute for [ingredient]?",
+          "I don't have [ingredient]. Is there a replacement Ican use?"
+        ],
+        "responses": [
+          "If you're missing an ingredient for [dish name], you can substitute it with [substitute ingredient].",
+          "For [ingredient], you can use [substitute ingredient] as a replacement.",
+          "Don't worry if you don't have [ingredient]. You can use [substitute ingredient] instead in your recipe."
+        ]
+      },
+      {
+        "tag": "cooking_tips",
+        "patterns": [
+          "Can you give me some cooking tips?",
+          "How can I improve my cooking?",
+          "Do you have any cooking hacks?"
+        ],
+        "responses": [
+          "Sure! Here are some cooking tips to help you improve your skills: [list of cooking tips].",
+          "To improve your cooking, try [cooking technique]. It can make a big difference in the taste and texture of your food.",
+          "Here are some cooking hacks to make your life in the kitchen easier: [list of cooking hacks]."
+        ]
+      },
+      {
+        "tag": "feedback",
+        "patterns": [
+          "Can I leave feedback?",
+          "I have a comment.",
+          "How can I provide feedback?",
+          "Can I speak to the manager?"
+        ],
+        "responses": [
+          "We appreciate your feedback. Please fill out our online feedback form or speak to a manager if you're on site.",
+          "Of course, we're always looking for ways to improve. You can leave feedback on our website or speak to a manager if you're on site.",
+          "We welcome your feedback. Please visit our website to leave feedback or speak to a manager if you're on site."
+        ]
+      },
+      {
+        "tag": "service",
+        "patterns": [
+          "What kind of service do you offer?",
+          "Do you offer delivery?",
+          "Can I order takeout?",
+          "Do you have a dress code?"
+        ],
+        "responses": [
+          "We offer [type of service], including dine-in, delivery, and takeout. You can place a delivery or takeout order on our website or by calling us at [phone number]."
+        ]
+      },
+      {
+        "tag": "payment",
+        "patterns": [
+          "How can I pay for my order?",
+          "Do you accept credit cards?",
+          "What payment methods do you accept?"
+        ],
+        "responses": [
+          "We accept cash, credit cards, and mobile payments like Apple Pay and Google Pay.",
+          "Yes, we accept all major credit cards.",
+          "We accept a variety of payment methods, including cash, credit cards, and mobile payments. Which method would you prefer?"
+        ]
+      },
+      {
+        "tag": "traditional_food",
+        "patterns": [
+          "Are there any traditional restaurants in the area?",
+          "What are some traditional food options?",
+          "Where can I find traditional cuisine?"
+        ],
+        "responses": [
+          "Yes, there are a few traditional restaurants in the area. Some popular options include [list of restaurants].",
+          "Traditional food options in the area include [list of traditional dishes].",
+          "You can find traditional cuisine at a number of restaurants in the area, including [list of restaurants]."
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Goodbye",
+          "See you later",
+          "Thanks for your help",
+          "Have a nice day"
+        ],
+        "responses": [
+          "Thank you for visiting us. Have a great day!",
+          "You're welcome. Have a good one!",
+          "Goodbye! Come back soon.",
+          "Thank you for dining with us. We hope to see you again soon."
+        ]
+      }
+    ]
+  }
